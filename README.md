@@ -32,7 +32,7 @@ The provided templates are designated for uploading audio/image data but can be 
 ### Recommended Resources:
 * Checkout the Streamlit documentation: https://docs.streamlit.io/
 * In a nutshell, you can use any plotting function from your favourite python library (matplotlib, plotly,...) and display the figure using a function from the Streamlit library.
-* You can also build an interface to interact with your data and loads of other cool things.
+* You can also build an interface to interact with your data and [loads of other cool things](https://streamlit.io/gallery).
 ## 🤖 Option-3: Build a Physical I/O Device
 ### Motivation:
 Many projects require physical solutions that can manipulate the real world and must interact with users outside a screen. This assignment can represent such a project which has more interesting outputs and inputs beyond a mouse, keyboard and monitor.
