@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Data Upload</title>
+    
+    <link rel="stylesheet" href="https://unpkg.com/dropzone@5/dist/min/dropzone.min.css" type="text/css" />    
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/style.css') }}">
+    
+    <script src="https://unpkg.com/dropzone@5/dist/min/dropzone.min.js"></script>    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    
+    <script type="text/javascript">
+      Dropzone.options.myDropzone = {
+        // Prevents Dropzone from uploading dropped files immediately
+        autoProcessQueue: false,
+        uploadMultiple: true,
+        parallelUploads: 10,
+        maxFiles: 10,
+        init: function() {
+          myDropzone = this; // closure
+
+          this.element.querySelector("button[type=submit]").addEventListener("click", function(e) {
+            e.preventDefault();
+            e.stopPropagation();
+            myDropzone.processQueue();
+          });
+
+        }
+      };
+    </script>
+  
+  </head>
+
+  <body>
+    
+    <div class="form-wrapper">
+      <img src="{{ url_for('static', filename='img/huji-logo.svg') }}" alt="logo" class="logo" width="60">
+      <form action="{{ url_for('upload_files') }}" class="dropzone"></form>
+    </div>
+  
+    <div class="data_button_wrapper">
+      <form>
+        <button class="button-19" type="submit" formaction="{{ url_for('database') }}">Show Database</button>
+      </form>
+    </div>   
+  
+  </body>
+</html>
