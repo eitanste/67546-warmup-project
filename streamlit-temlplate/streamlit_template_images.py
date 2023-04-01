@@ -6,15 +6,27 @@ import os
 
 # ALL SAMPLES CHART
 def plot_all_samples(meta_dir_path):
+    """
+        ADD CODE HERE
+        Total aggregation function - operates on all the samples in the directory, and provides insight about the dataset as a whole.
+    """
     pass
 
 
 # ALL UPLOADED SAMPLES CHART
 def plot_all_uploaded_samples(meta_file_paths):
+    """
+        ADD CODE HERE
+        Aggregation function - operates on all the uploaded samples, and provides insight about the selected samples.
+    """
     pass
 
 # SAMPLE CHART
 def plot_sample(meta_file_path):
+    """
+        ADD CODE HERE
+        Operator function - operates on an individual sample and displays an interesting property of the sample.
+    """
     pass
     
 
