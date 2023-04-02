@@ -31,7 +31,7 @@ Preprocess the data you collected in a meaningful way and visualize the insights
 The provided templates are designated for uploading audio/image data but can be modified to your liking. The current setting assumes that you have preprocessed your data and stored non-trivial "meta-info" to an individual .txt file, corresponding to each sample in your dataset, in a designated "meta-info" directory. This directory should be pointed to when calling the plot functions in the current setting.
 ### Recommended Resources:
 * Checkout the Streamlit documentation: https://docs.streamlit.io/
-* In a nutshell, you can use any plotting function from your favourite python library (matplotlib, plotly,...) and display the figure using a function from the Streamlit library.
+* In a nutshell, you can use any plotting function from your favorite python library (matplotlib, plotly,...) and display the figure using a function from the Streamlit library.
 * You can also build an interface to interact with your data and [loads of other cool things](https://streamlit.io/gallery).
 ## 🤖 Option-3: Build a Physical I/O Device
 ### Motivation:
