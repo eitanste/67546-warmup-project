@@ -8,15 +8,15 @@ Initially, the car is set to move forward. As long as the distance of the front 
 ## Prerequisites
 To use this project, you will need:
 
-An Arduino board (tested on Arduino Uno R3)
-Two HC-SR04 ultrasonic sensors
-An L298N motor driver
-A DC motor
-Jumper wires
-A toy car
-A breadboard
-A power source for the DC motor
-Arduino IDE installed on your computer
+- An Arduino board (tested on Arduino Uno R3)
+- Two HC-SR04 ultrasonic sensors
+- An L298N motor driver
+- A DC motor
+- Jumper wires
+- A toy car
+- A breadboard
+- A power source for the DC motor
+- Arduino IDE installed on your computer
 
 
 ## Installation
