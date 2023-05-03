@@ -30,6 +30,11 @@ To install the project, follow these steps:
 6. Download and open the Arduino IDE on your computer.
 7. Copy the code provided in this project and upload it to your Arduino board using the Arduino IDE.
 
+One can clone this reposetory using:
+```bash
+git clone https://github.com/eitanste/67546-warmup-project.git
+```
+
 
 ## Usage
 To run the project, follow these steps:
