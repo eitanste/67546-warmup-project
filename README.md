@@ -34,12 +34,12 @@ To install the project, follow these steps:
 ## Usage
 To run the project, follow these steps:
 
-Power the DC motor and the Arduino board.
-Place the toy car on a flat surface.
-Make sure the HC-SR04 ultrasonic sensors are positioned properly on the front and back of the car.
-Observe the car moving forward.
-Once an obstacle is detected by the front sensor, the car will turn until the back sensor detects an obstacle below the threshold distance.
-The car will then turn back and move forward again, repeating this logic.
+1. Power the DC motor and the Arduino board.
+2. Place the toy car on a flat surface.
+3. Make sure the HC-SR04 ultrasonic sensors are positioned properly on the front and back of the car.
+4. Observe the car moving forward.
+5. Once an obstacle is detected by the front sensor, the car will turn until the back sensor detects an obstacle below the threshold distance.
+6. The car will then turn back and move forward again, repeating this logic.
 *Note: If the car is not responding to the sensors, check the connections between the sensors, breadboard, and Arduino board. You can also adjust the threshold distance by changing the value of the variable "dist_trash_hold" in the code.
 
 
