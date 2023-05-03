@@ -45,6 +45,7 @@ To run the project, follow these steps:
 4. Observe the car moving forward.
 5. Once an obstacle is detected by the front sensor, the car will turn until the back sensor detects an obstacle below the threshold distance.
 6. The car will then turn back and move forward again, repeating this logic.
+
 *Note: If the car is not responding to the sensors, check the connections between the sensors, breadboard, and Arduino board. You can also adjust the threshold distance by changing the value of the variable "dist_trash_hold" in the code.
 
 
