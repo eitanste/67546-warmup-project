@@ -8,7 +8,7 @@ Initially, the car is set to move forward. As long as the distance of the front 
 ## Prerequisites
 To use this project, you will need:
 
-- An Arduino board (tested on Arduino Uno R3)
+- An Arduino board (tested on Arduino Uno)
 - Two HC-SR04 ultrasonic sensors
 - An L298N motor driver
 - A DC motor
@@ -22,13 +22,13 @@ To use this project, you will need:
 ## Installation
 To install the project, follow these steps:
 
-Connect the L298N motor driver to the breadboard and connect the DC motor to the motor driver using jumper wires.
-Connect the Arduino board to your computer.
-Connect the HC-SR04 ultrasonic sensors to the breadboard and connect the breadboard to the Arduino board using jumper wires.
-Connect the motor driver to the Arduino board using jumper wires.
-Attach the ultrasonic sensors to the front and back of the toy car using adhesive.
-Download and open the Arduino IDE on your computer.
-Copy the code provided in this project and upload it to your Arduino board using the Arduino IDE.
+1. Connect the L298N motor driver to the breadboard and connect the DC motor to the motor driver using jumper wires.
+2. Connect the Arduino board to your computer.
+3. Connect the HC-SR04 ultrasonic sensors to the breadboard and connect the breadboard to the Arduino board using jumper wires.
+4. Connect the motor driver to the Arduino board using jumper wires.
+5. Attach the ultrasonic sensors to the front and back of the toy car using adhesive.
+6. Download and open the Arduino IDE on your computer.
+7. Copy the code provided in this project and upload it to your Arduino board using the Arduino IDE.
 
 
 ## Usage
@@ -40,7 +40,7 @@ Make sure the HC-SR04 ultrasonic sensors are positioned properly on the front an
 Observe the car moving forward.
 Once an obstacle is detected by the front sensor, the car will turn until the back sensor detects an obstacle below the threshold distance.
 The car will then turn back and move forward again, repeating this logic.
-Note: If the car is not responding to the sensors, check the connections between the sensors, breadboard, and Arduino board. You can also adjust the threshold distance by changing the value of the variable "dist_trash_hold" in the code.
+*Note: If the car is not responding to the sensors, check the connections between the sensors, breadboard, and Arduino board. You can also adjust the threshold distance by changing the value of the variable "dist_trash_hold" in the code.
 
 
 ## The instructions for this project were:
