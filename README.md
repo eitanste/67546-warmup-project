@@ -37,9 +37,10 @@ One can clone this repository using:
 git clone https://github.com/eitanste/67546-warmup-project.git
 ```
 
-Here is a schematic os the circuit:
+### Here is a schematic os the circuit:
 
 ![Arduino schematic](https://user-images.githubusercontent.com/83840137/236182755-088278cc-0c3c-4ca7-b764-2b16c122bb6b.png)
+
 
 
 ## Usage
