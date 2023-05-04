@@ -17,6 +17,7 @@ To use this project, you will need:
 - A breadboard
 - A power source for the DC motor
 - Arduino IDE installed on your computer
+- Optional: RGB led light
 
 
 ## Installation
@@ -26,14 +27,18 @@ To install the project, follow these steps:
 2. Connect the Arduino board to your computer.
 3. Connect the HC-SR04 ultrasonic sensors to the breadboard and connect the breadboard to the Arduino board using jumper wires.
 4. Connect the motor driver to the Arduino board using jumper wires.
-5. Attach the ultrasonic sensors to the front and back of the toy car using adhesive.
-6. Download and open the Arduino IDE on your computer.
-7. Copy the code provided in this project and upload it to your Arduino board using the Arduino IDE.
+5. Optional: conect the RGB led light to the Arduino.
+6. Attach the ultrasonic sensors to the front and back of the toy car using adhesive.
+7. Download and open the Arduino IDE on your computer.
+8. Copy the code provided in this project and upload it to your Arduino board using the Arduino IDE.
 
 One can clone this repository using:
 ```bash
 git clone https://github.com/eitanste/67546-warmup-project.git
 ```
+
+Here is a schematic os the circuit:
+![Arduino schematic](https://user-images.githubusercontent.com/83840137/236182755-088278cc-0c3c-4ca7-b764-2b16c122bb6b.png)
 
 
 ## Usage
