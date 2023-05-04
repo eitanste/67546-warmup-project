@@ -33,8 +33,8 @@ To install the project, follow these steps:
 4. Connect the motor driver to the Arduino board using jumper wires.
 5. Optional: conect the RGB led light to the Arduino.
 6. Attach the ultrasonic sensors to the front and back of the toy car using adhesive.
-7. Download and open the Arduino IDE on your computer.
-8. Copy the code provided in this project and upload it to your Arduino board using the Arduino IDE.
+7. Download and open the VSCode with PlatformIO or Arduino IDE on your computer.
+8. Copy the code provided in this project and upload it to your Arduino board using the prefered IDE.
 
 One can clone this repository using:
 ```bash
